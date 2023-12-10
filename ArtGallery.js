@@ -50,3 +50,18 @@ buttons.forEach(button => {
 
 
 //pass value to another page
+const buttonbtn = document.querySelectorAll('.submit-button');
+
+buttonbtn.forEach(button => {
+    button.addEventListener('click', function () {
+        const imgSrc = this.closest('.flex-container').querySelector('.art-image').src;
+        const imgName = this.closest('.flex-container').querySelector('.art-image').alt;
+
+        // Encode data 
+        const encodedImgSrc = encodeURIComponent(imgSrc);
+        const encodedImgName = encodeURIComponent(imgName);
+
+        // Redirect to ArtView.html with the encoded parameters
+        window.location.href = `ArtView.html?imgSrc=${encodedImgSrc}&imageName=${encodedImgName}`;
+    });
+});
