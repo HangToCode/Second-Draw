@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* stick nav start */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #e1dcdc;
+    background-color:rgb(199, 193, 193);
+  }
+  
+  
+  .nav {
+    position: fixed;
+    background-color: #e7e2e2;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 3;
+  }
+  .nav .containerbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  .nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav a {
+    color: rgb(255, 255, 255)454;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav.active {
+    background-color: #71ea75;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav.active a {
+    color: #000;
+  }
+  
+  .nav.active .container {
+    padding: 10px 0;
+  }
+  
+  .nav a.current,
+  .nav a:hover {
+    color:rgb(79, 81, 79);
+    font-weight: bold;
+  }
+  
+  .nav.active a.current, .nav.active a:hover {
+    color: #8e938e;
+  }
+
+
+
+  /*for the art details and textbox*/
+  .FlexContainer {
+    display: flex;
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: #e1dcdc;
+    background-color: rgb(199, 193, 193);
+  }
+
+  .FlexContainer {
+    display: flex;
+    width: 100%;
+  }
+  
+  .ImgLoad {
+    width: 40%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .art-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .Details {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .loadComment {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .comment {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .comment textarea {
+    width: 100%;
+  }
+  
+  .comment input{
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }

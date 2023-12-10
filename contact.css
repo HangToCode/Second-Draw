@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #e1dcdc;
+    padding-bottom: 50px;
+    background-color:rgb(199, 193, 193);
+  }
+  
+  
+  .nav {
+    position: fixed;
+    background-color: #e7e2e2;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 3;
+  }
+  .nav .containerbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .logo { 
+  
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav a {
+    color: rgb(255, 255, 255)454;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav.active {
+    background-color: #71ea75;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav.active a {
+    color: #000;
+  }
+  
+  .nav.active .container {
+    padding: 10px 0;
+  }
+  
+  .nav a.current,
+  .nav a:hover {
+    color:rgb(79, 81, 79);
+    font-weight: bold;
+  }
+  
+  .nav.active a.current, .nav.active a:hover {
+    color: #8e938e;
+  }
+  
+
+
+  /*udemy course of content placeholder*/
+
+img {
+  max-width: 100%;
+}
+
+.card {
+  box-sizing: border-box;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  background-color: #ecf0f1;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.card-header {
+  height: 200px;
+}
+
+.card-header img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.card-content {
+  background-color: #fff;
+  padding: 30px;
+}
+
+.card-title {
+  height: 20px;
+  margin: 0;
+}
+
+.card-excerpt {
+  color: #777;
+  margin: 10px 0 20px;
+}
+
+.author {
+  display: flex;
+}
+
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+  width: 200px;
+}
+
+.author-info small {
+  color: #aaa;
+  margin-top: 5px;
+}
+
+.animated-bg {
+  background-image: linear-gradient(
+    to right,
+    #f6f7f8 0%,
+    #edeef1 10%,
+    #f6f7f8 20%,
+    #f6f7f8 100%
+  );
+  background-size: 200% 100%;
+  animation: bgPos 1s linear infinite;
+}
+
+.animated-bg-text {
+  border-radius: 50px;
+  display: inline-block;
+  margin: 0;
+  height: 10px;
+  width: 100%;
+}
+
+  
+  
