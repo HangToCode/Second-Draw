@@ -84,7 +84,7 @@ body {
   }
   
   .ImgLoad {
-    width: 40%;
+    width: 50%;
     box-sizing: border-box;
     padding: 20px;
   }
@@ -95,32 +95,13 @@ body {
   }
   
   .Details {
-    width: 20%;
+    width: 50%;
     box-sizing: border-box;
     padding: 20px;
   }
   
-  .loadComment {
-    width: 20%;
-    box-sizing: border-box;
-    padding: 20px;
-  }
+
+
+
+
   
-  .comment {
-    width: 20%;
-    box-sizing: border-box;
-    padding: 20px;
-  }
-  
-  .comment textarea {
-    width: 100%;
-  }
-  
-  .comment input{
-    width: 100%;
-    padding: 10px;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
