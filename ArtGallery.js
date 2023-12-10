@@ -20,3 +20,5 @@ function writeText() {
 
     setTimeout(writeText, 215);
 }
+
+//pass value to another page
